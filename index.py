@@ -64,5 +64,3 @@ def make_report(log_file, report_template, report_output):
 
     wb.save(report_output)
 
-
-make_report('logs.xlsx', 'report_template.xlsx', 'report.xlsx')
